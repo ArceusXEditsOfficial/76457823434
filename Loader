@@ -1,0 +1,293 @@
+-- Ghxst Main, No way u steal it nigga.
+-- Instances:
+
+local Injector = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Main = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local clickLeft = Instance.new("ImageLabel")
+local Close = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Main_2 = Instance.new("Folder")
+local Name = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Logo = Instance.new("ImageLabel")
+local Thanks = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local UIToolsGradient = Instance.new("UIGradient")
+
+--Properties:
+
+Injector.Name = "Injector"
+Injector.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Injector.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Injector
+MainFrame.BackgroundColor3 = Color3.fromRGB(143, 42, 42)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.18846412, 0, 0.126728117, 0)
+MainFrame.Size = UDim2.new(0.696847737, 0, 0.713133633, 0)
+
+Main.Name = "Main"
+Main.Parent = MainFrame
+Main.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.25432992, 0, 0.800068557, 0)
+Main.Size = UDim2.new(0, 470, 0, 73)
+Main.Font = Enum.Font.Unknown
+Main.Text = "Launch Client"
+Main.TextColor3 = Color3.fromRGB(0, 0, 0)
+Main.TextScaled = true
+Main.TextSize = 14.000
+Main.TextWrapped = true
+Main.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXEditsOfficial/v4-gng-783425983725/main/74658794"))()
+end)
+
+UICorner.Parent = Main
+
+clickLeft.Name = "clickLeft"
+clickLeft.Parent = Main
+clickLeft.BackgroundTransparency = 1.000
+clickLeft.Position = UDim2.new(0.998072505, 0, 0, 0)
+clickLeft.Size = UDim2.new(0, 70, 0, 76)
+clickLeft.Image = "rbxassetid://14976970435"
+clickLeft.ImageRectOffset = Vector2.new(512, 908)
+clickLeft.ImageRectSize = Vector2.new(108, 108)
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.922041714, 0, 0.0307280943, 0)
+Close.Size = UDim2.new(0, 70, 0, 70)
+Close.Image = "rbxassetid://16884179279"
+Close.ImageRectOffset = Vector2.new(220, 688)
+Close.ImageRectSize = Vector2.new(108, 108)
+
+UICorner_2.Parent = Close
+
+Main_2.Name = "Main"
+Main_2.Parent = MainFrame
+
+Name.Name = "Name"
+Name.Parent = Main_2
+Name.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.0734309927, 0, -0.00150145008, 0)
+Name.Size = UDim2.new(0, 845, 0, 50)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Ghxst Client: Main Launcher (This injector/launcher helps all execeutors to load the client.)"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = Name
+
+Info.Name = "Info"
+Info.Parent = Main_2
+Info.BackgroundColor3 = Color3.fromRGB(177, 177, 177)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.619818747, 0, 0.91857338, 0)
+Info.Size = UDim2.new(0, 428, 0, 50)
+Info.Font = Enum.Font.ArialBold
+Info.Text = "Pro Tip: Press The Close Button If You Have Injected It."
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Info
+
+Logo.Name = "Logo"
+Logo.Parent = Main_2
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(-0.0309216194, 0, 0.764828086, 0)
+Logo.Size = UDim2.new(0, 168, 0, 176)
+Logo.Image = "rbxassetid://18270815488"
+
+Thanks.Name = "Thanks"
+Thanks.Parent = Main_2
+Thanks.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+Thanks.BackgroundTransparency = 1.000
+Thanks.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thanks.BorderSizePixel = 0
+Thanks.Position = UDim2.new(0.136953607, 0, 0.420146406, 0)
+Thanks.Size = UDim2.new(0, 712, 0, 53)
+Thanks.Font = Enum.Font.SourceSansItalic
+Thanks.Text = "Thank You For Using My Client."
+Thanks.TextColor3 = Color3.fromRGB(255, 255, 255)
+Thanks.TextScaled = true
+Thanks.TextSize = 14.000
+Thanks.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = Thanks
+
+Credits.Name = "Credits."
+Credits.Parent = Main_2
+Credits.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.19181405, 0, 0.48799777, 0)
+Credits.Size = UDim2.new(0, 613, 0, 42)
+Credits.Font = Enum.Font.Unknown
+Credits.Text = "This whole client is made by arceus x edits alone."
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = Credits
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = MainFrame
+
+UIToolsGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 156, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(127, 186, 218))}
+UIToolsGradient.Name = "UIToolsGradient"
+UIToolsGradient.Parent = MainFrame
+
+-- Scripts:
+
+local function TVFWREZ_fake_script() -- Close.Close 
+	local script = Instance.new('LocalScript', Close)
+
+	local imageButton = script.Parent 
+	local mainFrame = imageButton.Parent 
+	local screenGui = mainFrame.Parent 
+	
+	imageButton.MouseButton1Click:Connect(function()
+		if screenGui then
+			screenGui:Destroy()
+		end
+	end)
+	
+	-- This took me 17 seconds to code. World record?
+	
+	
+end
+coroutine.wrap(TVFWREZ_fake_script)()
+local function KMHNRC_fake_script() -- Close.Hover 
+	local script = Instance.new('LocalScript', Close)
+
+	local imageButton = script.Parent
+	local originalColor = Color3.new(1, 1, 1)
+	local highlightColor = Color3.new(0.5, 0.5, 0.5)
+	local tweenInfo = TweenInfo.new(
+		0.3,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut
+	)
+	local tween = nil
+	local function highlightButton()
+		if tween and tween.Status == Enum.PlaybackState.Playing then
+			tween:Cancel()
+		end
+		tween = game:GetService("TweenService"):Create(imageButton, tweenInfo, {
+			ImageColor3 = highlightColor
+		})
+		tween:Play()
+	end
+	local function resetButton()
+		if tween and tween.Status == Enum.PlaybackState.Playing then
+			tween:Cancel()
+		end
+		tween = game:GetService("TweenService"):Create(imageButton, tweenInfo, {
+			ImageColor3 = originalColor
+		})
+		tween:Play()
+	end
+	imageButton.MouseEnter:Connect(highlightButton)
+	imageButton.MouseLeave:Connect(resetButton)
+	
+end
+coroutine.wrap(KMHNRC_fake_script)()
+local function BQYE_fake_script() -- MainFrame.Drag 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragInput, mousePos, framePos
+	local lastMousePos, lastGoalPos
+	local dragSpeed = 0.10  -- smoothness
+	
+	local function lerp(a, b, m)
+		return a + (b - a) * m
+	end
+	
+	local function update(input)
+		local delta = input.Position - mousePos
+		local newPos = UDim2.new(
+			framePos.X.Scale,
+			framePos.X.Offset + delta.X,
+			framePos.Y.Scale,
+			framePos.Y.Offset + delta.Y
+		)
+		lastGoalPos = newPos
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+			lastMousePos = mousePos
+			lastGoalPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if dragging then
+			frame.Position = UDim2.new(
+				lerp(frame.Position.X.Scale, lastGoalPos.X.Scale, dragSpeed),
+				lerp(frame.Position.X.Offset, lastGoalPos.X.Offset, dragSpeed),
+				lerp(frame.Position.Y.Scale, lastGoalPos.Y.Scale, dragSpeed),
+				lerp(frame.Position.Y.Offset, lastGoalPos.Y.Offset, dragSpeed)
+			)
+		end
+	end)
+	
+end
+coroutine.wrap(BQYE_fake_script)()
